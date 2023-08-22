@@ -2,5 +2,18 @@ package lang.print.gaps.finalModuleTask;
 
 public class NumberReverter {
     public void revert(int number) {
+        int rev = 0;
+
+        while (number > 0){
+            rev = rev * 10 + number % 10;
+            number = number / 10;
+        }
+
+        System.out.println(rev);
+    }
+    public static void main(String[] args) {
+        NumberReverter calculator = new NumberReverter();
+        int inputNumber = 123; // Example input number
+        calculator.revert(inputNumber);
     }
 }
