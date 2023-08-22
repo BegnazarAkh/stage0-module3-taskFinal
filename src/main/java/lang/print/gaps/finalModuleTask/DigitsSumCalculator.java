@@ -11,5 +11,6 @@ public class DigitsSumCalculator {
             sum += number % 10;
             number = number / 10;
         }
+        System.out.println(sum);
     }
 }

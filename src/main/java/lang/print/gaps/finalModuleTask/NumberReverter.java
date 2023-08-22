@@ -11,9 +11,4 @@ public class NumberReverter {
 
         System.out.println(rev);
     }
-    public static void main(String[] args) {
-        NumberReverter calculator = new NumberReverter();
-        int inputNumber = 123; // Example input number
-        calculator.revert(inputNumber);
-    }
 }
